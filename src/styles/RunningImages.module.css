@@ -1,0 +1,44 @@
+.marqueeContainer {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f8f1e9; /* Matches Navbar cream background */
+  margin: var(--spacing-xl) 0; /* Add spacing to integrate with HeaderSection */
+}
+
+.marquee {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+.marqueeImage {
+  
+  height: 44px;
+ 
+  margin: 0 10px;
+  flex-shrink: 0;
+  border-radius: var(--border-radius-md); /* Match your theme's rounded corners */
+  box-shadow: var(--shadow-sm); /* Subtle shadow for depth */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* Pause on hover for accessibility */
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .marqueeImage {
+    width: 150px;
+    height: 100px;
+  }
+}
