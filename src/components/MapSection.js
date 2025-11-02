@@ -12,16 +12,17 @@ const MapSection = () => {
 
   return (
     <section style={{
-      padding: 'var(--spacing-3xl) 0',
+      // padding: 'var(--spacing-3xl) 0',
       background: 'var(--background-primary)'
     }}>
       <div className="container">
         <div className="section-header">
           <h2 className="gradient-text" style={{
-            fontSize: 'var(--font-size-4xl)',
-            marginBottom: 'var(--spacing-md)'
+           color: 'var(--village-green)',
+            fontSize: 'var(--font-size-2xl)',
+            
           }}>
-            गावाचे स्थान
+            गावाचे स्थान / Location
           </h2>
        
           <div className="section-divider"></div>

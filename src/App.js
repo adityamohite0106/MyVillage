@@ -20,6 +20,7 @@ import TaxPayment from './components/TaxPayment';
 
 import './styles/globals.css';
 import './styles/components.css';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -57,6 +58,8 @@ function App() {
 
         {/* Footer appears on all pages */}
         <Footer />
+        {/* Back to top button (sticky across site) */}
+        <BackToTop />
       </div>
    
   );

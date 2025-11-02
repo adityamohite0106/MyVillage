@@ -34,8 +34,12 @@ const OfficialsSection = () => {
           <h2 className="gradient-text" style={{
             fontSize: 'var(--font-size-4xl)',
             marginBottom: 'var(--spacing-md)',
-            textAlign: 'center'
-          }}>
+            textAlign: 'center',
+           
+            
+          }} 
+          id="officials"
+          >
             गाव अधिकारी
           </h2>
           <div className="section-divider"></div>

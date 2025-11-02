@@ -5,17 +5,17 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { label: "गावाची माहिती", labelEn: "Village Info", href: "#village-info" },
+    { label: "गावाची माहिती", labelEn: "Village Info", href: "/village-info" },
     { label: "गाव अधिकारी", labelEn: "Officials", href: "#officials" },
     { label: "गावातील कामे", labelEn: "Development Works", href: "#works" },
     { label: "आकडेवारी", labelEn: "Statistics", href: "#statistics" }
   ];
 
   const services = [
-    { label: "तक्रार नोंदणी", labelEn: "Register Complaint", href: "#grievance" },
-    { label: "दाखले अर्ज", labelEn: "Certificate Application", href: "#certificates" },
-    { label: "कर भरणा", labelEn: "Tax Payment", href: "#tax-payment" },
-    { label: "योजना माहिती", labelEn: "Scheme Information", href: "#schemes" }
+    { label: "तक्रार नोंदणी", labelEn: "Register Complaint", href: "/grievance" },
+    // { label: "दाखले अर्ज", labelEn: "Certificate Application", href: "/certificates" },
+    { label: "कर भरणा", labelEn: "Tax Payment", href: "/tax-payment" },
+    { label: "योजना माहिती", labelEn: "Scheme Information", href: "/schemes" }
   ];
 
   const importantNumbers = [

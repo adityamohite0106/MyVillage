@@ -47,7 +47,10 @@ const Navbar = () => {
             <img src="/images/ashokstamb.png" alt="Village Portal Logo" />
           </div>
           <div>
-          <img src="/images/Tapargaon logo.png" alt="" />
+
+          <a href="/" id="home-logo">
+            <img src="/images/Tapargaon logo.png" alt="Tapargaon Logo" />
+          </a>
           </div>
         </div>
         

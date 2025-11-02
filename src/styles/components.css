@@ -703,3 +703,37 @@
 @media (min-width: 1280px) {
   .xl-hidden { display: none; }
 }
+
+/* Back to Top button */
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 28px;
+  width: 52px;
+  height: 52px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, var(--village-green), var(--village-light-green));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+  transition: transform 160ms ease, opacity 160ms ease;
+}
+
+.back-to-top:hover {
+  transform: translateY(-3px) scale(1.03);
+}
+
+.back-to-top-icon {
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* Reduce visual clutter on very small screens */
+@media (max-width: 360px) {
+  .back-to-top { right: 12px; bottom: 18px; width: 48px; height: 48px; }
+}

@@ -113,7 +113,9 @@ const VillageWorks = () => {
           <h2 className="gradient-text" style={{
             fontSize: 'var(--font-size-4xl)',
             marginBottom: 'var(--spacing-md)'
-          }}>
+          }}
+          
+          id="works">
             गावातील कामे
           </h2>
       

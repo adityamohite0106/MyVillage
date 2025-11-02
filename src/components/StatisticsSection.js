@@ -12,10 +12,10 @@ const StatisticsSection = () => {
   ];
 
   const occupationData = [
-    { name: 'शेती / Agriculture', value: 65, color: '#6b7f4b' },
-    { name: 'व्यापार / Business', value: 15, color: '#e67e22' },
-    { name: 'नोकरी / Service', value: 12, color: '#8b4513' },
-    { name: 'इतर / Others', value: 8, color: '#9cb86f' }
+    { name: 'शेती ', value: 65, color: '#6b7f4b' },
+    { name: 'व्यापार', value: 15, color: '#e67e22' },
+    { name: 'नोकरी ', value: 12, color: '#8b4513' },
+    { name: 'इतर ', value: 8, color: '#9cb86f' }
   ];
 
   const infrastructureData = [
@@ -40,7 +40,8 @@ const StatisticsSection = () => {
           <h2 className="gradient-text" style={{
             fontSize: 'var(--font-size-4xl)',
             marginBottom: 'var(--spacing-md)'
-          }}>
+          }}
+          id="statistics">
             आकडेवारी
           </h2>
           <p style={{ color: 'var(--village-brown)', fontSize: 'var(--font-size-lg)' }}>
