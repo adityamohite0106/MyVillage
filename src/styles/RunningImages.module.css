@@ -1,7 +1,7 @@
 .marqueeContainer {
   width: 100%;
   overflow: hidden;
-  background-color: #f8f1e9; /* Matches Navbar cream background */
+  /* background-color: #f8f1e9;  */
   margin: var(--spacing-xl) 0; /* Add spacing to integrate with HeaderSection */
 }
 
@@ -38,7 +38,6 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .marqueeImage {
-    width: 150px;
-    height: 100px;
+ height: 27px;
   }
 }

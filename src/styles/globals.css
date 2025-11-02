@@ -9,7 +9,13 @@
   --village-cream: #f4f1e8;
   --village-white: #ffffff;
   --village-black: #2d4a1e;
-  
+   .doublediv{
+  display: flex;
+  gap:10px;
+  width: 100%;
+
+ 
+}
   /* Design system */
   --primary-color: var(--village-green);
   --secondary-color: var(--village-orange);
@@ -125,6 +131,7 @@ img {
   display: block;
 }
 
+
 /* Lists */
 ul, ol {
   padding-left: var(--spacing-lg);
@@ -166,4 +173,10 @@ li {
     --font-size-3xl: 1.5rem;
     --font-size-2xl: 1.25rem;
   }
+
+  .doublediv{
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
 }

@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 const VillageIntro = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="py-20" id="village-info" style={{
       background: 'linear-gradient(180deg, var(--background-primary), var(--background-secondary))',
@@ -234,18 +237,21 @@ const VillageIntro = () => {
                     </div>
                   </div>
                 </div>
-
-                <button className="btn btn-primary btn-lg" style={{
-                  transition: 'all var(--transition-normal) transform var(--transition-normal)'
-                }}
-                onMouseEnter={(e) => {
-                  e.target.style.transform = 'scale(1.05)';
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.transform = 'scale(1)';
-                }}>
-                  अधिक वाचा / Read More →
-                </button>
+ <button
+      className="btn btn-primary btn-lg"
+      style={{
+        transition: "all var(--transition-normal) transform var(--transition-normal)",
+      }}
+      onMouseEnter={(e) => {
+        e.target.style.transform = "scale(1.05)";
+      }}
+      onMouseLeave={(e) => {
+        e.target.style.transform = "scale(1)";
+      }}
+      onClick={() => navigate("/village-info")}
+    >
+      अधिक वाचा / Read More →
+    </button>
               </div>
             </div>
           </div>

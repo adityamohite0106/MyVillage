@@ -2,6 +2,14 @@ import React from 'react';
 import { MapPin, Navigation, Phone, Clock } from 'lucide-react';
 
 const MapSection = () => {
+
+  const handleClick = () => {
+    window.open(
+      "https://www.google.com/maps/place/20%C2%B008'13.0%22N+75%C2%B007'48.8%22E/@20.1369572,75.1286008,655m/data=!3m2!1e3!4b1!4m13!1m8!3m7!1s0x3bdbf267bbe47ea5:0x9d2bdd8d7e8bc983!2sTapargaon,+Maharashtra!3b1!8m2!3d20.1303637!4d75.1341064!16s%2Fg%2F12hp6cmrz!3m3!8m2!3d20.136954!4d75.130226?entry=ttu",
+      "_blank"
+    );
+  }
+
   return (
     <section style={{
       padding: 'var(--spacing-3xl) 0',
@@ -58,10 +66,13 @@ const MapSection = () => {
                   }}>
                     इंटरॅक्टिव्ह नकाशा येथे दिसेल
                   </p>
-                  <button className="btn btn-primary">
-                    <Navigation size={16} style={{ marginRight: 'var(--spacing-sm)' }} />
-                    दिशानिर्देश मिळवा / Get Directions
-                  </button>
+                  <button
+      onClick={handleClick}
+      className="btn btn-primary flex items-center gap-2"
+    >
+      <Navigation size={16} />
+      दिशानिर्देश मिळवा / Get Directions
+    </button>
                 </div>
               </div>
             </div>
@@ -94,24 +105,24 @@ const MapSection = () => {
               </div>
               <div style={{ color: 'var(--village-brown)', lineHeight: '1.6' }}>
                 <p style={{ marginBottom: 'var(--spacing-sm)' }}>
-                  <strong>गाव:</strong> आदर्श गाव<br />
-                  <strong>Village:</strong> Adarsh Village
+                  <strong>गाव:</strong> टापरगाव <br />
+                  <strong>Village:</strong> Tapargaon 
                 </p>
                 <p style={{ marginBottom: 'var(--spacing-sm)' }}>
                   <strong>तालुका:</strong> आदर्श तालुका<br />
                   <strong>Tehsil:</strong> Adarsh Tehsil
                 </p>
                 <p style={{ marginBottom: 'var(--spacing-sm)' }}>
-                  <strong>जिल्हा:</strong> पुणे<br />
-                  <strong>District:</strong> Pune
+                  <strong>जिल्हा:</strong> छत्रपती संभाजीनगर<br />
+                  <strong>District:</strong> Chhtrapati Sambhajinagar
                 </p>
                 <p style={{ marginBottom: 'var(--spacing-sm)' }}>
                   <strong>राज्य:</strong> महाराष्ट्र<br />
                   <strong>State:</strong> Maharashtra
                 </p>
                 <p style={{ margin: '0' }}>
-                  <strong>पिन कोड:</strong> 411001<br />
-                  <strong>PIN Code:</strong> 411001
+                  <strong>पिन कोड:</strong> 431103<br />
+                  <strong>PIN Code:</strong> 431103
                 </p>
               </div>
             </div>
@@ -245,8 +256,8 @@ const MapSection = () => {
                 रेल्वे स्टेशन / Railway Station
               </h4>
               <p style={{ color: 'var(--village-brown)', fontSize: 'var(--font-size-sm)', margin: '0' }}>
-                जवळचे रेल्वे स्टेशन 25 किमी अंतरावर<br />
-                Nearest railway station 25 km away
+                जवळचे रेल्वे स्टेशन 45 किमी अंतरावर<br />
+                Nearest railway station 45 km away
               </p>
             </div>
           </div>

@@ -3,19 +3,19 @@ import React from 'react';
 const OfficialsSection = () => {
   const officials = [
     {
-      name: "श्री. राजेश पाटील",
+      name: "सौ.रूपालीताई बाबासाहेब मोहिते",
       position: "सरपंच",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&face=crop"
+      image: "/images/sarpanch.jpg"
     },
     {
-      name: "श्रीमती सुनीता शर्मा",
+      name: "सौ.वैशालीताई सूर्यकांत तुपे",
       position: "उप-सरपंच",
       image: "https://images.unsplash.com/photo-1494790108755-2616c0763a5b?w=300&h=300&fit=crop&face=crop",
     },
     {
-      name: "श्री. अनिल कुमार",
+      name: "श्री. उत्तम घोडेकर",
       position: "ग्राम सेवक",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&face=crop",
+      image: "/images/gramsevek.png",
     },
     {
       name: "डॉ. प्रिया देशमुख",
@@ -46,17 +46,7 @@ const OfficialsSection = () => {
             <div 
               key={index} 
               className="card"
-              style={{
-                transition: 'all var(--transition-normal)',
-                background: 'var(--background-primary)',
-                border: '1px solid rgba(139, 115, 85, 0.2)',
-                padding: 'var(--spacing-xl)',
-                borderRadius: 'var(--border-radius-xl)',
-                textAlign: 'center',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
-                maxWidth: '300px',
-                margin: '0 auto'
-              }}
+              
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-8px)';
                 e.currentTarget.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.15)';
@@ -98,7 +88,7 @@ const OfficialsSection = () => {
                 background: 'linear-gradient(90deg, var(--village-orange), var(--village-green))',
                 color: 'white',
                 padding: 'var(--spacing-sm) var(--spacing-lg)',
-                borderRadius: 'var(--border-radius-full)',
+                // borderRadius: 'var(--border-radius-full)',
                 fontSize: 'var(--font-size-md)',
                 fontWeight: '500',
                 display: 'inline-block'

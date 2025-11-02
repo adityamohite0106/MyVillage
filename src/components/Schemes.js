@@ -70,8 +70,8 @@ const Schemes = () => {
       name: "Mukhyamantri Majhi Ladki Bahin Yojana (मुख्यमंत्री माझी लाडकी बहिण योजना)",
       objective: "मुलींना आर्थिक साहाय्य, शिक्षण व कल्याणासाठी मदत.",
       beneficiary: "मुली व कुटुंब",
-      details: "अधिकृत माहिती: दैनिक योजनांच्या यादीत पुणे जिल्ह्याच्या संकेतस्थळावर दिले आहे.",
-      website: "https://pune.gov.in/en/schemes/",
+      details: "अधिकृत माहिती: दैनिक योजनांच्या यादीत छत्रपती संभाजीनगर जिल्ह्याच्या संकेतस्थळावर दिले आहे.",
+      website: "https://Chhtrapati Sambhajinagar.gov.in/en/schemes/",
       image: "/images/3.png", // Placeholder: Women empowerment theme
     },
     {

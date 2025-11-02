@@ -19,10 +19,12 @@ const StatisticsSection = () => {
   ];
 
   const infrastructureData = [
-    { category: 'शाळा\nSchools', count: 3 },
-    { category: 'आरोग्य केंद्र\nHealth Centers', count: 2 },
-    { category: 'मंदिरे\nTemples', count: 5 },
-    { category: 'बँका\nBanks', count: 1 }
+    // { category: 'शाळा\nSchools', count: 3 },
+    { category: 'आरोग्य केंद्र', count: 1 },
+    { category: 'मंदिरे', count: 6 },
+    { category: 'पाणी टाक्या', count: 2 },
+    // { category: 'रस्ते (किमी)\nRoads (km)', count: 12 } 
+
   ];
 
   const COLORS = ['#6b7f4b', '#e67e22', '#8b4513', '#9cb86f'];
@@ -104,9 +106,9 @@ const StatisticsSection = () => {
         </div>
 
         {/* Charts Grid */}
-        <div className="grid lg-grid-cols-2" style={{ gap: 'var(--spacing-2xl)' }}>
-          {/* Population Growth Chart */}
-          <div className="chart-container">
+           {/* Population Growth Chart */}
+          <div className="doublediv">
+   <div className="chart-container">
             <h3 style={{
               color: 'var(--village-green)',
               fontSize: 'var(--font-size-xl)',
@@ -176,6 +178,10 @@ const StatisticsSection = () => {
               </PieChart>
             </ResponsiveContainer>
           </div>
+          </div>
+        <div className="grid lg-grid-cols-2 " style={{ gap: 'var(--spacing-2xl)' }}>
+      
+       
 
           {/* Infrastructure Count */}
           <div className="chart-container" style={{ gridColumn: 'span 2' }}>

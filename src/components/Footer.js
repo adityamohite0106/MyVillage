@@ -50,14 +50,14 @@ const Footer = () => {
                 🏛️
               </div>
               <div>
-                <h3 style={{ color: 'var(--village-orange)', margin: '0' }}>आदर्श गाव</h3>
+                <h3 style={{ color: 'var(--village-orange)', margin: '0' }}>टापरगाव </h3>
                 <p style={{ color: 'rgba(255, 255, 255, 0.8)', fontSize: 'var(--font-size-sm)', margin: '0' }}>
-                  Adarsh Village
+                  Tapargaon 
                 </p>
               </div>
             </div>
             <p style={{ color: 'rgba(255, 255, 255, 0.8)', lineHeight: '1.6', marginBottom: 'var(--spacing-lg)' }}>
-              महाराष्ट्रातील एक आदर्श गाव जे आधुनिक तंत्रज्ञान आणि पारंपरिक मूल्यांचे मिश्रण आहे.
+              महाराष्ट्रातील एक टापरगाव  जे आधुनिक तंत्रज्ञान आणि पारंपरिक मूल्यांचे मिश्रण आहे.
             </p>
             <p style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: 'var(--font-size-sm)', lineHeight: '1.6' }}>
               A model village in Maharashtra that blends modern technology with traditional values.
@@ -223,8 +223,8 @@ const Footer = () => {
                 <MapPin size={16} />
                 <div>
                   <p style={{ margin: '0', fontSize: 'var(--font-size-sm)' }}>
-                    आदर्श गाव, पुणे जिल्हा<br />
-                    Adarsh Village, Pune District
+                    टापरगाव , छत्रपती संभाजीनगर जिल्हा<br />
+                    Tapargaon , Chhtrapati Sambhajinagar District
                   </p>
                 </div>
               </div>
@@ -278,7 +278,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>
-            © {currentYear} आदर्श गाव पंचायत सर्व हक्क राखीव / Adarsh Village Panchayat. All rights reserved.
+            © {currentYear} टापरगाव  पंचायत सर्व हक्क राखीव / Tapargaon  Panchayat. All rights reserved.
           </p>
           <p style={{ marginTop: 'var(--spacing-sm)', fontSize: 'var(--font-size-xs)' }}>
             डिजिटल इंडिया मिशनचा भाग / Part of Digital India Mission

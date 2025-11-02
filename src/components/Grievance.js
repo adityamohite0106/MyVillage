@@ -33,24 +33,24 @@ const Grievance = () => {
               </div>
               <div style={{ color: 'var(--village-brown)', lineHeight: '1.6' }}>
                 <p style={{ marginBottom: 'var(--spacing-sm)' }}>
-                  <strong>गाव:</strong> आदर्श गाव<br />
-                  <strong>Village:</strong> Adarsh Village
+                  <strong>गाव:</strong> टापरगाव <br />
+                  <strong>Village:</strong> Tapargaon 
                 </p>
                 <p style={{ marginBottom: 'var(--spacing-sm)' }}>
                   <strong>तालुका:</strong> आदर्श तालुका<br />
                   <strong>Tehsil:</strong> Adarsh Tehsil
                 </p>
                 <p style={{ marginBottom: 'var(--spacing-sm)' }}>
-                  <strong>जिल्हा:</strong> पुणे<br />
-                  <strong>District:</strong> Pune
+                  <strong>जिल्हा:</strong> छत्रपती संभाजीनगर<br />
+                  <strong>District:</strong> Chhtrapati Sambhajinagar
                 </p>
                 <p style={{ marginBottom: 'var(--spacing-sm)' }}>
                   <strong>राज्य:</strong> महाराष्ट्र<br />
                   <strong>State:</strong> Maharashtra
                 </p>
                 <p style={{ margin: '0' }}>
-                  <strong>पिन कोड:</strong> 411001<br />
-                  <strong>PIN Code:</strong> 411001
+                  <strong>पिन कोड:</strong> 431103<br />
+                  <strong>PIN Code:</strong> 431103
                 </p>
               </div>
             </div>
