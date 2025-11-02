@@ -10,9 +10,12 @@
   --village-white: #ffffff;
   --village-black: #2d4a1e;
    .doublediv{
-  display: flex;
-  gap:10px;
-  width: 100%;
+        display: flex
+;
+        gap: 10px;
+        width: 100%;
+        margin: 18px;
+        justify-content: center;
 
  
 }
