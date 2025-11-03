@@ -110,8 +110,8 @@ const MapSection = () => {
                   <strong>Village:</strong> Tapargaon 
                 </p>
                 <p style={{ marginBottom: 'var(--spacing-sm)' }}>
-                  <strong>तालुका:</strong> आदर्श तालुका<br />
-                  <strong>Tehsil:</strong> Adarsh Tehsil
+                  <strong>तालुका:</strong> कन्नड तालुका<br />
+                  <strong>Tehsil:</strong> Kannad Tehsil
                 </p>
                 <p style={{ marginBottom: 'var(--spacing-sm)' }}>
                   <strong>जिल्हा:</strong> छत्रपती संभाजीनगर<br />

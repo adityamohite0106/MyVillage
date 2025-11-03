@@ -14,7 +14,7 @@
 ;
         gap: 10px;
         width: 100%;
-        margin: 18px;
+        margin-bottom: 18px;
         justify-content: center;
 
  
@@ -177,9 +177,9 @@ li {
     --font-size-2xl: 1.25rem;
   }
 
-  .doublediv{
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-xl);
-}
+.doublediv {
+    flex-direction: column;
+    gap: var(--spacing-xl);
+    margin: 0; /* ✅ removes margin in mobile view */
+  }
 }

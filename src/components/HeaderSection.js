@@ -33,7 +33,7 @@ const HeaderSection = () => {
       title: "पारंपरिक हस्तकला",
     },
     {
-      src: "https://images.unsplash.com/photo-1629878006094-12bce6da1b63?w=800&h=600&fit=crop",
+      src: "/images/mandir.png",
       alt: "Village Temple",
       title: "गावचे मंदिर",
     },
@@ -87,7 +87,7 @@ const HeaderSection = () => {
   };
 
   return (
-    <header className="header-section" id="home" style={{ padding: 'var(--spacing-3xl) 0' }}>
+    <header className="header-section" id="home" style={{ padding: 'var(--spacing-2xl) 0' }}>
       {/* Background decoration */}
       <div className="header-decoration">
         <div className="header-decoration-circle-1"></div>
